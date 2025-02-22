@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio V1</title>
+<style>
+  /* General styling for the web page*/
+  body{
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+/* Header stles*/
+header{
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  padding: 10px 0px ;
+  background-color: #7e74f1;
+}
+.navigation-bar ul li{
+display: inline;
+}
+.navigation-bar ul li a{
+text-decoration: none;
+color: #ffffff;
+padding: 0px 20px;
+}
+
+  /* Styling for the Home section*/
+   .container{
+    display: flex;
+    height: 100vh;
+    
+   }
+   .same-margin{
+    margin: auto;
+   }
+   .div-1{
+    width: 60%;
+    text-align: justify;
+padding: 0px 100px 0px 30px;
+   }
+   .div-1 h1 span{
+color: #7e74f1;
+font-weight: bolder;
+   }
+   .div-1 p{
+    color: gray;
+    font-size: 14px;
+   }
+   .div-2{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+   }
+   .div-2 image{
+    border-radius: 8px;
+   }
+
+   /* Syling for skills section */
+   #skills-section{
+    text-align: center;
+   }
+   .skills-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+   }
+
+   .skill-card{
+    background-color: #ffffff;
+    color: #000000;
+    width: 30%;
+    margin: auto 15px;
+    border-radius: 6px;
+    padding: 80px 3px 30px 3px;
+   }
+   .skill-card h2{
+font-weight: lighter;
+   }
+   .skill-card p{
+    color: gray;
+   }
+/* Styling for previous work section */
+   #work-section{
+    text-align: center;
+   }
+   .work-container{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    height: 80vh;
+   }
+   .work-container{
+    border: 1px solid gray;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+   }
+   .work-content img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   }
+   .work-content p{
+    padding: 50px 20px 15px 12px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+   }
+   .work-content button{
+    color: gray;
+    background-color: #000000;
+   /* border: 5px solid gray;*/
+    margin: 7px 0px;
+    padding: 10px 15px;
+    cursor: pointer;
+   /* border-radius: 3px;*/
+    border: none;
+   }
+/* styling for Testimonials section */
+   #testimonials-section{
+    text-align: center;
+    margin: 10px 0px;
+   }
+   .test-container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+   }
+   .test-content {
+width: 50%;
+margin: auto;
+   }
+   .test-words{
+    text-align: justify;
+    padding: 0px 15px;
+    margin-left:  35px;
+   }
+   .test-words p{
+    color: gray;
+    padding: 5px 0px;
+   }
+   .test-words button{
+    border: none;
+    border-radius: 3px;
+    padding: 13px 23px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #7e74f1;
+    cursor: pointer;
+   }
+.test-img img{
+  border-radius:  50%;
+}
+
+/* footer styles*/
+footer{
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 0px;
+  text-align: center;
+}
+</style>
+  </head>
+  <body>
+
+<header>
+  <div class="navigation-bar">
+<nav>
+  <ul>
+    <li><a href="#home-section">Home</a></li>
+    <li><a href="#skills-section">skills</a></li>
+    <li><a href="#work-section">work</a></li>
+    <li><a href="#testimonials-section">Testimonials</a></li>
+  </ul>
+</nav>
+  </div>
+</header>
+<section id="home-section">
+  <div class="container">
+    <div class="same-margin div-1">
+          <div class="content">
+            <h1>Justin <span>Newa</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, hic? Velit, mollitia temporibus voluptas quia laborum ducimus incidunt esse sapiente eaque.
+               Nihil minus odio alias, repudiandae repellendus unde voluptate tempora!</p>
+          </div>
+        </div>
+        <div class="same-margin div-2">
+          <img src="./male.member.jpg" alt="user image" height="340px" width="300px">
+        </div>
+      </div>
+    </section>
+
+    <Section id="skills-section">
+      <h1>Specialized in</h1>
+     <div class="skills-container">
+
+       <div class="skill-card skill-1">
+       <h2>Skill 1</h2>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque error
+         rem alias nostrum cum placeat cupiditate ullam saepe possimus sequi.
+      </p>
+      </div>
+      <div class="skill-card skill-2">
+      <h2>Skill 2</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Consectetur, magnam? Soluta distinctio minus explicabo fuga est 
+        .</p>
+      </div>
+      <div class="skill-card skill-3">
+      <h2>Skill 3</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+         Magni quas architecto velit totam sit illum exercitationem ab
+         !</p>
+     </div>
+     </div>
+  </Section>
+
+  <section id="work-section">
+    <h1>Worked On</h1>
+<div class="work-container">
+  <div class="work-content work-1">
+<img src="./christin-hume-mfB1B1s4sMc-unsplash.jpg" height="220" width="334" alt="previous work-1">
+<p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus 
+  fugit natus et, laudantium, aliquid perspiciatis.
+   </p>
+   <button>Continue Reading</button>
+  </div>
+  <div class="work-content work-2">
+    <img src="./christin-hume-mfB1B1s4sMc-unsplash.jpg" height="220" width="334" alt="previous work-2">
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa 
+      nemo vero amet. Quia consequuntur.
+       </p>
+       <button>Continue Reading</button>
+  </div>
+  <div class="work-content work-3">
+    <img src="./christin-hume-mfB1B1s4sMc-unsplash.jpg" height="220" width="334" alt="previous work-3">
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, error cumque laudantium aperiam
+       sapiente beatae magni sunt. 
+      </p>
+      <button>Continue Reading</button>
+  </div>
+</div>
+  </section>
+
+<section id="testimonials-section">
+  <h1>Testimonials</h1>
+<div class="test-container">
+  <div class="test-content test-words">
+<h1>Justin Newa</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Officiis praesentium, repellat nam eius mollitia quibusdam culpa assumenda
+   </p>
+   <button>Read More > </button>
+  </div>
+  <div class="test-content test-img">
+<img src="./female.member - Copy.avif" height="300" width="300" alt="testimonial img">
+  </div>
+</div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <p>&copy;JustinNewa</p>
+  </div>
+</footer>
+  </body>
+</html>
